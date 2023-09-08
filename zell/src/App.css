@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4e0dd;
+  font-family: "Inter", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  height: 4rem;
+  width: 41rem;
+  border-radius: 1rem;
+  background-color: #f3f1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+h1 {
+  font-family: "Bentham", serif;
+  font-size: 1.8rem;
+}
+
+button {
+  height: 3rem;
+  width: 7rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color: #ffcd6d;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f8bf54;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  font-weight: 500;
+  padding: 0 1.4rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 5rem;
+  width: 40rem;
+}
+
+.title h1 {
+  font-size: 7rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #1b171c;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #222022;
+  opacity: 80%;
+}
