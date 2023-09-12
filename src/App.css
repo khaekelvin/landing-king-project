@@ -9,6 +9,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.plane {
+  width: 0.8rem;
+  margin-left: 5px;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -21,7 +26,7 @@ body {
 }
 
 nav {
-  height: 4rem;
+  height: 3.8rem;
   width: 41rem;
   border-radius: 1rem;
   background-color: #f3f1ef;
@@ -37,7 +42,7 @@ ul {
 
 h1 {
   font-family: "Bentham", serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 button {
