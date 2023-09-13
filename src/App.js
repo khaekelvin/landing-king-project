@@ -1,19 +1,3 @@
-// import "./App.css";
-// import { Routes, Route } from "react-router-dom";
-// import About from "./components/About";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Routes>
-//         <Route path="/About" element={<About />} />
-//       </Routes>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import "./App.css";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -37,7 +21,7 @@ function Home() {
               </li>
               {/* <Link to="/"> */}
               <li>
-                <a href="/about/">
+                <a href="/About">
                   About Us{" "}
                   <FontAwesomeIcon className="plane" icon={faChevronDown} />
                 </a>
