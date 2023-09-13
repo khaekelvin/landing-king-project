@@ -1,25 +1,9 @@
-// import "./App.css";
-// import { Routes, Route } from "react-router-dom";
-// import About from "./components/About";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Routes>
-//         <Route path="/About" element={<About />} />
-//       </Routes>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import "./App.css";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 import one from "../src/images/4th guy.png";
-// import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -35,14 +19,14 @@ function Home() {
                   <FontAwesomeIcon className="plane" icon={faChevronDown} />
                 </a>
               </li>
-              {/* <Link to="/"> */}
-              <li>
-                <a href="/about/">
-                  About Us{" "}
-                  <FontAwesomeIcon className="plane" icon={faChevronDown} />
-                </a>
-              </li>
-              {/* </Link> */}
+              <Link to="/">
+                <li>
+                  <a href="/about/">
+                    About Us{" "}
+                    <FontAwesomeIcon className="plane" icon={faChevronDown} />
+                  </a>
+                </li>
+              </Link>
               <li>
                 <a href="/contactus/">
                   Contact us{" "}
